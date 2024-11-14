@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-position: center center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#girls .box-inside{
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+#girls h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+#girls h2{
+    font-size: 2.1em;
+}
+#girls h3{
+    font-size: 1.9em;
+    margin-top: -22px;
+}
+.box-inside:first-child{
+    background-color: red;
+}
+.box-inside:nth-child(2){
+    background-color: rgb(15, 15, 88);
+}
+.box-inside:nth-child(3){
+    background-color: white;
+    color: black;
+}
+.box-inside:nth-child(4){
+    background-color: orange;
+}
