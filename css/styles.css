@@ -109,9 +109,12 @@ margin-top: 15px;
     text-align: center;
     margin-top: 25px;
 }
+#numeros{
+    padding: 25px;
+}
 #numeros .box-inside{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     margin-left: auto;margin-right: auto;
     display: flex;
@@ -119,19 +122,15 @@ margin-top: 15px;
     align-items: center;
     justify-content: center;
 }  
-#numeros h1{
-    font-size: 2.5em;
-    text-align: center;
-}
 #numeros h2{
-    font-size: 2.1em;
+    font-size: 3.2em;
 }
 #numeros h3{
     font-size: 1.9em;
     margin-top: -22px;
 }
 .box-inside:first-child{
-    background-color: red;
+    background-color: rgb(180, 48, 65);
     color: white;
 }
 .box-inside:nth-child(2){
@@ -145,4 +144,48 @@ margin-top: 15px;
 .box-inside:nth-child(4){
     background-color: orange;
     color: white;
+}
+#images{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    height: 80vh;
+}
+#images .box-inside{
+        display: flex;
+        flex-direction: column;
+}
+#images h4{
+    color:  rgba(180, 48, 65, .9);
+    font-size: 1.8em;
+    text-align: center;
+}
+#images .b1{
+    font-size: 2.5em;
+}
+#images .healey{
+    width: 300px;
+    height: 270px;
+    background-image:url(assets/index/3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#images .fire-defense{
+    width: 300px;
+    height: 280px;
+    background-image: url(assets/index/4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -280px;
+}
+#nuestros{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
 }
