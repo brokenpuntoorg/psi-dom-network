@@ -109,3 +109,40 @@ margin-top: 15px;
     text-align: center;
     margin-top: 25px;
 }
+#numeros .box-inside{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+#numeros h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+#numeros h2{
+    font-size: 2.1em;
+}
+#numeros h3{
+    font-size: 1.9em;
+    margin-top: -22px;
+}
+.box-inside:first-child{
+    background-color: red;
+    color: white;
+}
+.box-inside:nth-child(2){
+    background-color: rgb(15, 15, 88);
+    color: white;
+}
+.box-inside:nth-child(3){
+    background-color: white;
+    color: black;
+}
+.box-inside:nth-child(4){
+    background-color: orange;
+    color: white;
+}
