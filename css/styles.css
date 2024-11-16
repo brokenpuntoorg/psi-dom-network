@@ -197,3 +197,8 @@ margin-top: 15px;
     margin-left: auto;margin-right: auto;
     text-align: center;
 }
+#nues a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+}
