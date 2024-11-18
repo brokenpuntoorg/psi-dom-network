@@ -18,7 +18,7 @@ body{
     justify-content: center ;
 }
 .container{
-    height: 400px;
+    height: 600px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
@@ -79,15 +79,27 @@ input:checked + label .description{
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
-.card [for="c1"]{
-    background-image: url(assets/index/10.jpg);
+.card[for="c1"]{
+    background-image: url(assets/practice2/c1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.card [for="c2"]{
+.card[for="c2"]{
     background-image: url(assets/practice2/c2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.card [for="c3"]{
+.card[for="c3"]{
     background-image: url(assets/practice2/c3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.card [for="c4"]{
+.card[for="c4"]{
     background-image: url(assets/practice2/c4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
