@@ -306,11 +306,11 @@ background-position: center center;
 #empresas span{
     font-size: 2.8em;
     color:  rgba(180, 48, 65, .9);
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 #empresas h4{
     color: rgba(180, 48, 65, .9);
+    font-size: 1.5em;
 }
 #empresas p{
     margin-top: -5px;
@@ -322,4 +322,37 @@ background-position: center center;
     border: 2px solid rgba(0, 0, 0, .9);
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+}
+#contacto{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0.5)
+    )
+    ,url(
+        assets/index/5.jpg
+    );
+    color: white;
+}
+#contacto .box-head{
+    border-bottom: 1px solid rgba(255, 255, 255, .9);
+    display: flex;
+    flex-direction: row;
+}
+#contacto span{
+    font-size: 3em;
+    margin-top: 55px;
+    color: rgba(180, 48, 65, .9);
+}
+#contacto .box-head-inside p{
+    margin-top: -25px;
+    margin-left: 20px;
+    text-align: left;
+}
+#contacto h4{
+    text-align: left;
+    margin-left: 20px;
 }
