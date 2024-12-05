@@ -43,8 +43,8 @@ nav{
         rgba(0,0,0,.5),
         rgba(0,0,0,.5)
     ) 
-    ,url(assets/index/17.webp);
-    background-position: center center;
+    ,url(assets/index/8.jpeg);
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -333,9 +333,10 @@ background-position: center center;
         rgba(0,0,0.5)
     )
     ,url(
-        assets/index/5.jpg
+        assets/index/12.jpg
     );
     color: white;
+    height: 95vh;
 }
 #contacto .box-head{
     border-bottom: 1px solid rgba(255, 255, 255, .9);
@@ -343,7 +344,7 @@ background-position: center center;
     flex-direction: row;
 }
 #contacto span{
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 55px;
     color: rgba(180, 48, 65, .9);
 }
@@ -352,7 +353,40 @@ background-position: center center;
     margin-left: 20px;
     text-align: left;
 }
+#contacto .box-icon{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+#contacto .box-icon p{
+    font-size:.9em;
+    padding: 0px 10px;
+}
+#contacto .box-icon span{
+    margin-top: 10px;
+}
 #contacto h4{
     text-align: left;
     margin-left: 20px;
+}
+form input{
+    margin-bottom: 25px;
+    width: 300px;
+    height: 45px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+.f1{
+    height: 95px;
+}
+#form{
+    background-color: rgb(6, 6, 49);
+    color: white;
+}
+#form .box-form{
+    border: 5px solid red;
+}
+#matame{
+    height: 100vh;
 }
