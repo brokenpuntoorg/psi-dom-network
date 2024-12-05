@@ -336,7 +336,6 @@ background-position: center center;
         assets/index/12.jpg
     );
     color: white;
-    height: 95vh;
 }
 #contacto .box-head{
     border-bottom: 1px solid rgba(255, 255, 255, .9);
@@ -384,5 +383,23 @@ form input{
     background-color: rgb(6, 6, 49);
     color: white;
 }
-
+#form .button{
+    padding: 15px 25px;
+    background-color: rgba(180, 48, 65, .9);
+    border-radius: 15px;
+    border: 2px solid #010101;
+    box-shadow: 5px 5px 5px 5px #020202;
+}
+#form .button:hover{
+    background-color: rgba(180, 48, 65,.59);
+    color: #030303;
+}
+#form .box-button{
+    margin-top: 1.5px;
+}
+footer{
+    height: 100vh;
+    background-color: rgb(7, 7, 50);
+    color: white;
+}
 
