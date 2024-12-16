@@ -123,3 +123,27 @@ header nav{
     margin-top: 25px;
     margin-left: -5px;
 }
+#funciones b{
+    font-size: 1.2em;
+}
+#funciones .button{
+    padding: 10px 25px;
+    background-color: rgb(180, 48, 65);
+    border: 1px solid #010203;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #f0f0f0;
+}
+#funciones a{
+    font-size: .9;
+    width: 50px;
+}
+#funciones{
+    padding: 45px 25px;
+}
+#funciones .box-button{
+    margin-top: 40px;
+}
+#componentes{
+    background-color: rgb(180, 48, 65);
+    color: white;
+}
