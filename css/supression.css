@@ -50,14 +50,15 @@ header nav{
     width: 120px;
     height: 100px;
     margin-right: auto;margin-left: auto;
-    margin-top: -200px;
+    margin-top: -180px;
 }
 #hero h1{
     text-align: left;
 }
 #hero p{
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 #hero h1:hover{
     color: rgb(180, 48, 65);
@@ -97,4 +98,13 @@ header nav{
 }
 #sistema .box-icon{
     margin-top: -25px;
+}
+#funciones{
+    background-color: rgb(32, 32, 72);
+    color: #fff;
+}
+#funciones h2{
+    width: 250px;
+    text-align: center;
+    margin-left: auto;margin-right: auto;
 }
