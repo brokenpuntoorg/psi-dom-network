@@ -147,3 +147,33 @@ header nav{
     background-color: rgb(180, 48, 65);
     color: white;
 }
+#componentes .box-inside{
+    background-color: #f0f0ff;
+    color: #010203;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+#componentes p{
+    text-align: justify;
+}
+#componentes .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#componentes span{
+    margin-top: 25px;
+    margin-left: -5px;
+}
+#componentes .box-icon p{
+    margin-left: 25px;
+}
+#componentes{
+    padding: 35px 25px;
+}
+#componentes .button{
+    background-color: rgb(21, 21, 76);
+    padding: 15px 25px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
