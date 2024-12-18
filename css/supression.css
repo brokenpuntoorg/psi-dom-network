@@ -208,3 +208,57 @@ header nav{
 #tipos .box-icon p{
     margin-left: 20px;
 }
+#aplicaciones .box-head{
+    background-color: rgb(180, 48, 65);
+    padding: 15px 25px;
+    border: 1px solid #010203;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #020304;
+    color: white;
+    margin-bottom: 50px;
+}
+#aplicaciones{
+    padding: 25px;
+
+}
+#aplicaciones p{
+    text-align: justify;
+}
+#aplicaciones .box-body{
+    border: 1px solid rgb(180, 48, 65);
+    padding: 15px;
+    border-radius: 15px;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+}
+#aplicaciones .box-inside{
+    text-align: left;
+}
+#aplicaciones span{
+    color: rgb(180, 48, 65);
+    font-weight: 400;
+    font-size: 2em;
+    margin-left: 25px;
+}
+#aplicaiones .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#aplicaciones h3{
+    margin-top: 5px;
+}
+#aplicaciones .box-body p{
+    margin-top: -25px;
+    margin-left: 30px;
+}
+#aplicaciones h3{
+    margin-left: 30px;
+}
+#aplicaciones a{
+    border: 1px solid rgb(0, 0, 0);
+    color: #010203;
+    padding: 15px 25px;
+    background-color: rgb(180, 48, 65);
+    border-radius: 15px;
+}
+#
