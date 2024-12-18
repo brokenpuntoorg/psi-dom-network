@@ -233,12 +233,12 @@ header nav{
 }
 #aplicaciones .box-inside{
     text-align: left;
+    padding: 15px;
 }
 #aplicaciones span{
-    color: rgb(180, 48, 65);
     font-weight: 400;
-    font-size: 2em;
-    margin-left: 25px;
+    font-size: 1.3em;
+    margin-left: 15px;
 }
 #aplicaiones .box-icon{
     display: flex;
@@ -249,16 +249,45 @@ header nav{
 }
 #aplicaciones .box-body p{
     margin-top: -25px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 #aplicaciones h3{
-    margin-left: 30px;
+    margin-left: 15 px;
 }
 #aplicaciones a{
     border: 1px solid rgb(0, 0, 0);
-    color: #010203;
+    color: #fff;
     padding: 15px 25px;
     background-color: rgb(180, 48, 65);
     border-radius: 15px;
 }
-#
+#supresion{
+    color: #fff;
+    background-color: rgb(180, 48, 65);
+}
+#supresion p{
+    text-align: justify;
+}
+#supresion .box-inside{
+    background-color: #fff;
+    color: #010203;
+    padding: 15px;
+    border: 1px solid #010203;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #010203;
+    margin-bottom: 25px;
+}
+#supresion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#supresion span{
+    color: rgb(180, 48, 65);
+    margin-top: 25px;
+}
+#supresion .box-icon p{
+    margin-left: 25px;
+}
+#minero{
+    padding: 25px;
+}
