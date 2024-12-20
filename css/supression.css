@@ -347,3 +347,71 @@ header nav{
     background-color: rgb(21, 21, 76);
     color: white;
 }
+#form input{
+    margin-bottom: 25px;
+    width: 320px;
+    height: 45px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+#form .label1{
+    height: 155px;
+    margin-bottom: 45px;
+}
+#form  .button{
+    padding: 18px 35px;
+    background-color: rgb(180, 48, 65);
+    border-radius: 15px;
+    border: 1px solid #010203;
+    box-shadow: 5px 5px 5px #010203;
+}
+footer{
+    height: 95vh;
+    padding: 75px 25px;
+    background-color: rgb(21, 21, 76);
+    color: white;
+}
+footer a{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    font-size: 1.3em;
+    position: relative;
+    top: 16px;
+}
+footer p{
+    position: relative;
+    top: -1px;
+}
+footer h5{
+    position: relative;
+    top: -15px;
+}
+footer .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+footer .insta{
+    background-color: white;
+    background-image: url(assets/index/instagram.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    margin-left: 25px;
+}
+footer .link{
+    background-color: white;
+    background-image: url(assets/index/inkedin.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    margin-left: 25px;
+}
