@@ -12,7 +12,7 @@ h3{font-size: 1.5em;}
 h4{font-size: 1.2em;}
 h5{font-size: .9em;}
 p{font-size: .9em;}
-li{font-size: 1.1em;}
+li{font-size: .9em;}
 span{font-size: 2em;}
 a{font-size: 1.2em;}
 .container{
@@ -89,8 +89,8 @@ header nav{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     margin-right: auto;margin-left: auto;
 }
@@ -98,9 +98,12 @@ header nav{
     color: rgb(9, 9, 71);
     font-size: 1.4em;
     text-align: left;
+    position: relative;
+    top: -5px;  
 }
 #importancia li{
     text-align: left;
     list-style: none;
     margin-left: -15px;
+    font-size: .9em;
 }
