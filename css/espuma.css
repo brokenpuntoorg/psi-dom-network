@@ -94,3 +94,13 @@ header nav{
     border-radius: 50%;
     margin-right: auto;margin-left: auto;
 }
+#importancia h5{
+    color: rgb(9, 9, 71);
+    font-size: 1.4em;
+    text-align: left;
+}
+#importancia li{
+    text-align: left;
+    list-style: none;
+    margin-left: -15px;
+}
