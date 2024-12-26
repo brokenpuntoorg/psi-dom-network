@@ -167,3 +167,53 @@ header nav{
 #componentes a:hover{
     background-color: rgb(180, 48, 65);
 }
+#efectividad{
+    background-color: rgb(180, 48, 65);
+    color: #f0f0f0;
+}
+#efectividad h2{
+    color: #f0f0f0;
+}
+#efectividad p{
+    text-align: justify;
+}
+#efectividad .box-inside{
+    background-color: #f0f0f0;
+    color: #010203;
+    padding: 25px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    border: 1px solid #010203;
+    box-shadow: 5px 5px 5px 5px #000100;
+    text-align: left;
+}
+#efectividad h3{
+    text-align: center;
+}
+#efectividad li{
+    color: rgb(180, 48, 65);
+    margin-bottom: 5px;
+}
+#importancia1{
+    background-color: rgb(8, 8, 63);
+    color: white;
+}
+#importancia1 h2{
+    color: #fff;
+}
+#importancia1 p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+#importancia1 .box-inside li{
+    text-align: left;
+    margin-left: -25px;
+    margin-bottom: 25px;
+}
+#contactanos{
+    background-color: rgb(9, 9, 71);
+    color: #f0f0f0;
+}
+#contactanos h2{
+    color: #f0f0f0;
+}
