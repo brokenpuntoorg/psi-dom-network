@@ -97,7 +97,7 @@ header nav{
 #importancia h5{
     color: rgb(9, 9, 71);
     font-size: 1.4em;
-    text-align: left;
+    text-align: center;
     position: relative;
     top: -5px;  
 }
@@ -107,8 +107,31 @@ header nav{
     margin-left: -15px;
     font-size: .9em;
 }
-#importancia .img1{
+#importancia .box-inside .img2{
     width: 280px;
     height: 280px;
     background-image: url(assets/espuma/11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: auto;margin-left: auto;
+}
+#importancia .box-inside .img3{
+    width: 280px;
+    height: 280px;
+    background-image: url(assets/espuma/13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: auto;margin-right: auto;
+}
+#importancia .box-body li{
+    text-align: justify;
+}
+#componentes .box-inside{
+    background-color: rgb(180, 48, 65);
+    color: white;
+    padding: 15px;
 }
