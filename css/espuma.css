@@ -134,4 +134,36 @@ header nav{
     background-color: rgb(180, 48, 65);
     color: white;
     padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000100;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #010203;
+    text-align: justify;
+}
+#componentes .box-inside p{
+    margin-top: -15px;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+#componentes .box-inside b{
+    font-weight: bold;
+}
+#componentes .box-body{
+    padding-bottom: 25px;
+}
+#componentes a{
+    background-color: rgb(8, 8, 63);
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 25px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    box-shadow: 5px 5px 5px 5px #010203;
+}
+#componentes a:hover{
+    background-color: rgb(180, 48, 65);
 }
