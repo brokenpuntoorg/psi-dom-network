@@ -275,7 +275,7 @@ header nav{
     background-color: rgb(180, 48, 65);
 }
 footer{
-    height: 50vh;
+    height: 75vh;
     padding: 25px;
     background-color: rgb(9, 9, 71);
 }
@@ -286,7 +286,6 @@ footer a{
 }
 footer h5{
     color: white;
-    margin-top: -3px;
 }
 footer li{
     color: #f0f0f0;
@@ -305,4 +304,15 @@ footer .insta{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%;
+}
+footer .link{
+    width: 60px;
+    height: 60px;
+    background-image: url(assets/espuma/inkedin.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 25px;
 }
