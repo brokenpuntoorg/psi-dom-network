@@ -223,5 +223,86 @@ header nav{
 }
 #contactanos .box-inside{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+#contactanos .li-1{
+    font-weight: bold;
+    font-size: 1.2em;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 15px;
+}
+#contactanos li{
+    list-style: none;
+    text-align: left;
+    margin-left: -25px;
+}
+#contactanos span{
+    margin-top: 25px;
+    color: rgb(180, 48, 65);
+    font-weight: 400;
+    font-size: 1.7em;
+}
+#form{
+    padding: 25px;
+    background-color: rgb(9, 9, 71);
+    height: 65vh;
+}
+#form input{
+    width: 325px;
+    margin-bottom: 5px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    height: 35px;
+    text-align-last: left;
+    margin-left: auto;margin-right: auto;
+}
+#form  .button1{
+    height: 185px;
+    margin-bottom: -25px;
+}
+#form .button{
+    padding: 15px 25px;
+    color: #f0f0f0;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;   
+    width: 250px; 
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0);
+}
+#form a{
+    width: 300px;
+    background-color: rgb(180, 48, 65);
+}
+footer{
+    height: 50vh;
+    padding: 25px;
+    background-color: rgb(9, 9, 71);
+}
+footer a{
+    color: rgb(180, 48, 65);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+footer h5{
+    color: white;
+    margin-top: -3px;
+}
+footer li{
+    color: #f0f0f0;
+}
+footer ul{
+    margin-top: -5px;
+}
+footer .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+footer .insta{
+    width: 60px;
+    height: 60px;
+    background-image: url(assets/espuma/instagram.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
