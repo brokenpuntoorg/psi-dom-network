@@ -184,7 +184,7 @@ header nav{
     margin-bottom: 35px;
     border-radius: 15px;
     border: 1px solid #010203;
-    box-shadow: 5px 5px 5px 5px #000100;
+    box-shadow: inset 10px 0px 20px 5px #000100;
     text-align: left;
 }
 #efectividad h3{
