@@ -29,10 +29,10 @@ nav{
     margin: auto;
 }
 .button{
-    padding: 20px 30px;
+    padding: 10px 25px;
     background-color:  rgb(180, 48, 65);
     border: 1px solid #000;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #000;
     display: flex;
     flex-direction: column;
@@ -40,15 +40,60 @@ nav{
     justify-content: center;
     text-align: center;
     width: 180px;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 50px;
 }   
 #hero{
     background-image:linear-gradient(
         0deg,
         rgba(0,0,0,.5),
-        rgba(0.0.0..5)
+        rgba(0,0,0,.5)
     ) 
     ,url(assets/mantenimiento/1.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #f0f0f0;
+    height: 85vh;
+}
+#hero a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: bold;
+}
+#hero .logo{
+    background-image: url(assets/mantenimiento/logo.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    margin-right: auto;margin-left: auto;
+    margin-top: -5  0px;
+}
+#hero p{
+    width: 300px;
+    text-align: justify;
+    margin-left: auto;margin-right: auto;   
+}
+#importancia h2{
+    color: rgb(5, 5, 71);
+    width: 300px;
+}
+#importancia p{
+    width: 300px;
+    text-align: justify;
+}
+#mantenimiento h3{
+    font-size: 1.5em;
+    color: rgb(180, 48, 65);
+}
+#mantenimiento .box-img{
+    background-image: url(assets/mantenimiento/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
 }
