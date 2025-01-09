@@ -9,7 +9,7 @@ body{
 h1{font-size: 2em;}
 h2{font-size: 1.5em;}
 h3{font-size: 1.2em;}
-h4{font-size: 1em;}
+h4{font-size: 1.3em;}
 p{font-size: .9em;}
 li{font-size: .9em;}
 b{font-size: 1.2em;}
@@ -84,11 +84,74 @@ nav{
     text-align: justify;
 }
 #mantenimiento h3{
-    font-size: 1.5em;
+    font-size: 1.65em;
     color: rgb(180, 48, 65);
 }
 #mantenimiento .box-img{
     background-image: url(assets/mantenimiento/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento p{
+    text-align: justify;
+}
+#mantenimiento .box-img1{
+    background-image: url(assets/mantenimiento/2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento .box-img2{
+    background-image: url(assets/mantenimiento/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento .box-img3{
+    background-image: url(assets/mantenimiento/4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento-1 .box-img4{
+    background-image: url(assets/mantenimiento/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento-1 .box-img5{
+    background-image: url(assets/mantenimiento/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#mantenimiento-1 .box-img6{
+    background-image: url(assets/mantenimiento/7.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
