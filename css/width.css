@@ -37,7 +37,7 @@ section{
     background-color: blue;
     margin: 0;
     width: auto;
-    margin-left: 100px;
+    margin-left: 100px  ;
 }
 .box-inside{
     width: 100%;
