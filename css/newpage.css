@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container{
+    padding: 60px 0px;
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    overflow: hidden;
+}
+h1{
+    color: white; 
+    font-size: 5em;
+}
+header h2{
+    color: white;
+    font-size: 3.5em;
+}
+h2{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(186, 16, 16, 0.701),
+        rgba(35, 16, 16, 0.289)
+    )
+    ,url(assets/index/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;  
+}
+nav{
+    text-align: right;
+    padding: 32px 50px 0 0;
+}
+nav a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: red;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wave{
+    position: relative;
+    bottom: 4em;
+}
+.sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sobre-nosotros img{
+    width: 50%;
+}
+.sobre-nosotros .textos{
+    width: 50%;
+    padding: 150px 100px;
+}
+.sobre-nosotros p{
+    width: 75%;
+}
+.textos h3{
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.textos span{
+    background-color: #642a73;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px 0px;
+    margin-right: 5px;
+}
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen{
+    width: 24%;
+    height: 400px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagen img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}   
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background-color: hsla(273, 91%, 27%, 0.7);
+    transition: transform 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-haleria img{
+    width: 100px;
+}
+.hover-galeria p{
+    color: #fff;
+}
+.imagen:hover .hover-galeria{
+    transform: scale(1);
+}
