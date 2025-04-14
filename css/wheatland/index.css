@@ -48,8 +48,11 @@ header .box-inside:first-child p{
 }
 header .box-button{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+}
+header .box-button span{
+    display: inline ;
 }
 header button{
     height: 35px;
@@ -58,7 +61,7 @@ header button{
 }
 
 @media (min-width:500px){
-    .conmtainer{
+    .container{
         min-width: 500px;
         margin: auto;
     }
